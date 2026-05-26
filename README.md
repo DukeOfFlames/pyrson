@@ -1,3 +1,3 @@
-# torres-engine
+# PyRSON
 
-An RSON-based engine.
+A Python port for the RSON file format.
