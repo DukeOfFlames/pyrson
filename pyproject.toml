@@ -30,3 +30,9 @@ package-dir = {"" = "src"}
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["rson*"]
+
+[tool.setuptools.package-data]
+rson = [
+    "binaries/linux/rson",
+    "binaries/windows/rson.exe"
+]
