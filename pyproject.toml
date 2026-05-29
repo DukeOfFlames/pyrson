@@ -23,5 +23,4 @@ Homepage = "https://godemperor.de/Elias/pyrson"
 Repository = "https://gitea.godemperor.de/Elias/pyrson"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["rson*"]
+where = ["src"]
