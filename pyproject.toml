@@ -7,16 +7,18 @@ name = "rson"
 version = "0.1.0"
 description = "The Python library to load RSON-structures"
 readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
 authors = [
     { name = "DukeOfFlames", email = "godemperor@godemperor.de" }
 ]
+
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3"
 ]
-dependencies = []
-requires-python = ">=3.11"
 
 [project.urls]
 Homepage = "https://godemperor.de/Elias/pyrson"
