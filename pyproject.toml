@@ -22,5 +22,9 @@ requires-python = ">=3.11"
 Homepage = "https://godemperor.de/Elias/pyrson"
 Repository = "https://gitea.godemperor.de/Elias/pyrson"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["rson*"]
