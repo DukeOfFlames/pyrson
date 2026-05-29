@@ -2,8 +2,8 @@ import sys
 from pathlib import Path
 
 def __get_bin_path__() -> Path:
-    # Navigate to module root.
-    here = Path(__file__).parent.parent.parent
+    # Navigate to package root.
+    here = Path(__file__).parent
 
     # Choose file based on OS.
     if sys.platform == "win32":
